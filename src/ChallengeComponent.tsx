@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const COLUMNS = [
+export const COLUMNS = [
   { status: "todo", title: "Todo" },
   { status: "review", title: "Review" },
   { status: "done", title: "Done" },
